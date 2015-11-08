@@ -5,6 +5,7 @@
 #include <atomic>
 #include <limits>
 #include <vector>
+#include <algorithm>
 
 namespace pulsar {
 

@@ -2,10 +2,11 @@
 
 #include "pulsar/subscriber.hpp"
 #include <cassert>
+#include <cstdint>
 
 using namespace pulsar;
 
-const long N = 1000L * 1000L * 100L;
+const int64_t N = 10LL * 1024 * 1024;// 1000LL * 1000L * 100L;
 const size_t Q = 16 * 1024;
 const size_t B = 1;
 const size_t I = 100;

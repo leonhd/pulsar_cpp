@@ -27,6 +27,6 @@ int main()
         auto millis = std::chrono::duration_cast< std::chrono::milliseconds >(
             std::chrono::high_resolution_clock::now() - start ).count() + 1;
 
-        std::cout << ( N * 1000 ) / millis << std::endl;
+		std::cout << j << "th/" << I << ": " << (N * 1000) / millis << "/sec" << std::endl;
     }
 }
